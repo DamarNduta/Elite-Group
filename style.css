@@ -1,0 +1,21 @@
+.boy{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.cat{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 180px;
+    height: 15px;
+    gap: 10px;
+}
+.dog{
+    display: grid;
+    grid-template-columns: 0.25fr 2fr ;
+}
+.egg img{
+    width: 1000px;
+    height: 700px;
+    padding: 20px 150px;
+    border-radius: 25px;
+}
